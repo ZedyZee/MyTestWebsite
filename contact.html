@@ -1,0 +1,101 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Homepage</title>
+    <style>
+        /* Styles for the navigation bar */
+        .navbar {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            display: flex;
+            align-items: center;
+        }
+
+            /* Styles for the navigation bar list */
+            .navbar ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                display: flex;
+            }
+
+            .navbar li {
+                margin-right: 10px;
+            }
+
+                .navbar li a {
+                    color: #fff;
+                    text-decoration: none;
+                    padding: 5px;
+                }
+
+                    .navbar li a.active {
+                        font-weight: bold;
+                        background-color: #fff;
+                        color: #333;
+                        border-radius: 5px;
+                    }
+
+        /* Styles for the main content container */
+        .main-container {
+            height: 1000px; /* Adjust this height as per your content */
+            background-color: #fff;
+            padding: 20px;
+        }
+
+        /* Styles for the footer */
+        .footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        /* Styles for the parallax scrolling effect */
+        .parallax {
+            background-image: url('content/galaxy-background.png'); 
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 100vh;
+        }
+
+        /* Additional padding between logo and navigation bar */
+        .navbar h1 {
+            margin-right: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <!-- Navigation bar content -->
+        <h1>Website Logo</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="parallax"></div>
+
+    <div class="main-container">
+        <!-- Main content here -->
+        <h2>Welcome to our Website!</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer commodo tristique fermentum. Ut non sapien eget purus volutpat vestibulum. In mattis, lorem vitae venenatis sagittis, erat mauris ullamcorper nunc, eu sagittis quam ex sed sem. Aenean dapibus neque quis tellus aliquet, nec vestibulum mauris lacinia. Phasellus auctor id dolor ut sagittis. Aliquam finibus diam ut neque tristique, non aliquet nunc ultrices. Donec in suscipit urna, id vestibulum tortor. Donec ultricies justo vel enim tincidunt feugiat. Praesent gravida sapien ac metus sollicitudin tristique. Donec dignissim condimentum elit, vitae volutpat nunc tincidunt vel. Nunc interdum semper enim id ultrices.</p>
+    </div>
+
+    <div class="parallax"></div>
+
+    <div class="footer">
+        <!-- Footer content here -->
+        <p>&copy; 2023 Your Website. All rights reserved.</p>
+    </div>
+</body>
+</html>

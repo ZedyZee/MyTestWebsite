@@ -1,0 +1,104 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Services Page</title>
+    <style>
+        /* Styles for the navigation bar */
+        .navbar {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            display: flex;
+            align-items: center;
+        }
+
+            /* Styles for the navigation bar list */
+            .navbar ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                display: flex;
+            }
+
+            .navbar li {
+                margin-right: 10px;
+            }
+
+                .navbar li a {
+                    color: #fff;
+                    text-decoration: none;
+                    padding: 5px;
+                }
+
+                    .navbar li a.active {
+                        font-weight: bold;
+                        background-color: #fff;
+                        color: #333;
+                        border-radius: 5px;
+                    }
+
+        /* Styles for the main content container */
+        .main-container {
+            min-height: 500px;
+            background-color: #fff;
+            padding: 20px;
+        }
+
+        /* Styles for the footer */
+        .footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        /* Styles for the parallax scrolling effect */
+        .parallax {
+            background-image: url('content/galaxy-background.jpg'); 
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 100vh;
+        }
+
+        /* Additional padding between logo and navigation bar */
+        .navbar h1 {
+            margin-right: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <!-- Navigation bar content -->
+        <h1>Website Logo</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html" class="active">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="parallax"></div>
+
+    <div class="main-container">
+        <!-- Services page content -->
+        <h2>Our Services</h2>
+        <ul>
+            <li>Service 1</li>
+            <li>Service 2</li>
+            <li>Service 3</li>
+        </ul>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec turpis tincidunt, volutpat tortor sed, interdum massa. Nulla facilisi. Phasellus non feugiat velit. Donec in fringilla neque. Integer at faucibus eros. Maecenas pulvinar neque non ante scelerisque finibus. Curabitur sodales auctor ultrices. Proin maximus lorem eget nisl dignissim malesuada. Fusce commodo, mi in consequat tempus, turpis purus rhoncus mauris, id malesuada justo nunc at mauris. Donec tincidunt lectus velit, ut lacinia urna venenatis eget. Integer semper risus et tellus bibendum sollicitudin.</p>
+    </div>
+
+    <div class="footer">
+        <!-- Footer content here -->
+        <p>&copy; 2023 Your Website. All rights reserved.</p>
+    </div>
+</body>
+</html>

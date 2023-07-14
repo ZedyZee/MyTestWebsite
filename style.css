@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+* {
+    font-family: Lato;
+}
+
+.nav {
+    border-radius: 0px !important;
+    width: 100%;
+    color: teal;
+    position: fixed;
+    top: 0;
+}
+ 
+.link {
+   margin-right: 10px;
+   font-size: 12pt;
+}
+
+.brand {
+    margin-left: 20px;
+    margin-right: 40px;
+    font-size: 18pt;
+    height: 185px;
+}
+ 
+.container {
+   text-align: center;
+   padding: 40px 20px;
+   height: 1000px;
+   width: 100%;
+   background-color: black;
+   color: teal;
+   display: flex;
+}
+
+body, html {
+    height: 100%;
+}
+
+.parallax {
+    /*Image and height*/
+    background-image: url('content/space-background2.jpg');
+    height: 75%;
+
+    /*Parallax scroll effect*/
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment:fixed;
+
+}
+
+.parallax2 {
+    /*Height*/
+    height: 75%;
+    /*Parallax scroll effect*/
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/*Turn off parallax scrolling for tablets and phones. Increase pixels if needed */
+@media only screen and (max-device-width: 1366px) {
+    .parallax{
+        background-attachment: scroll;
+    }
+}
+
+.footer-nav {
+    border-radius: 0px !important;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: teal;
+    text-align: center;
+    background-color: black;
+}
+
+.paravid {
+    position: center;
+    width: 100%;
+    display:flex;
+}
