@@ -67,6 +67,28 @@
         .navbar h1 {
             margin-right: 20px;
         }
+
+        .container {
+            display: flex;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            padding: 20px;
+        }
+
+        .profile-picture {
+            width: 200px;
+            border-radius: 50%;
+            margin-right: 20px;
+            box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+        }
+
+        .details {
+            flex: 1;
+        }
+
+            .details p {
+                margin: 5px 0;
+            }
     </style>
 </head>
 <body>
@@ -83,13 +105,23 @@
         </nav>
     </div>
 
-    <div class="parallax"></div>
-
-    <div class="main-container">
-        <!-- About page content -->
-        <h2>About Us</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec turpis tincidunt, volutpat tortor sed, interdum massa. Nulla facilisi. Phasellus non feugiat velit. Donec in fringilla neque. Integer at faucibus eros. Maecenas pulvinar neque non ante scelerisque finibus. Curabitur sodales auctor ultrices. Proin maximus lorem eget nisl dignissim malesuada. Fusce commodo, mi in consequat tempus, turpis purus rhoncus mauris, id malesuada justo nunc at mauris. Donec tincidunt lectus velit, ut lacinia urna venenatis eget. Integer semper risus et tellus bibendum sollicitudin.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec turpis tincidunt, volutpat tortor sed, interdum massa. Nulla facilisi. Phasellus non feugiat velit. Donec in fringilla neque. Integer at faucibus eros. Maecenas pulvinar neque non ante scelerisque finibus. Curabitur sodales auctor ultrices. Proin maximus lorem eget nisl dignissim malesuada. Fusce commodo, mi in consequat tempus, turpis purus rhoncus mauris, id malesuada justo nunc at mauris. Donec tincidunt lectus velit, ut lacinia urna venenatis eget. Integer semper risus et tellus bibendum sollicitudin.</p>
+    <h1>About Me</h1>
+    <div class="container">
+        <img class="profile-picture" src="profile_picture.jpg" alt="Profile Picture">
+        <div class="details">
+            <p><strong>First Name:</strong> John</p>
+            <p><strong>Last Name:</strong> Doe</p>
+            <p><strong>Email:</strong> john.doe@example.com</p>
+            <p><strong>Phone Number:</strong> (123) 456-7890</p>
+            <p><strong>Home Address:</strong> 123 Main Street, City, Country</p>
+            <p><strong>Interests and Hobbies:</strong></p>
+            <ul>
+                <li>Reading</li>
+                <li>Hiking</li>
+                <li>Playing the guitar</li>
+                <li>Photography</li>
+            </ul>
+        </div>
     </div>
 
     <div class="footer">
